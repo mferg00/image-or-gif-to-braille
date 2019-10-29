@@ -58,15 +58,15 @@ def find_image_params(frame, _width, _invert):
 
     cv2.createTrackbar('thresh', title, 127, 255, nothing)
 
-    if _width is None:
+    if _invert is None:
         cv2.createTrackbar('invert', title, 0, 1, nothing)
     else:
-        width = _width
+        invert = _invert
 
-    if _invert is None:
+    if _width is None:
         cv2.createTrackbar('new width', title, 60, 1000, nothing)
     else:
-        invert = _invert
+        width = _width
 
     while True:
         thresh = cv2.getTrackbarPos('thresh', title)
