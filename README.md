@@ -13,6 +13,7 @@ run 'python main.py file.extension'
 run 'python main.py path_to_imgs/'
 
 **What each image slider does:**
+
 *Threshold:*
 > find the point in the image that has the best amount of detail
 
