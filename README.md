@@ -25,6 +25,7 @@ run 'python main.py path_to_imgs/'
 
 
 **Optional arguments:**
+
 *-w *
 > set a fixed maximum width to convert to for all images (removes slider)
 
